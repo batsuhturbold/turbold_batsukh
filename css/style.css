@@ -27,8 +27,13 @@ body {
 }
 
 h2 {
-    font-family: 'Figtree', sans-serif;
+    margin: 0;
+    font-family: 'Figtree';
     font-size: 24px;
+    font-weight: 600;
+    line-height: 31.2px;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
 }
 
 .container {
@@ -69,6 +74,7 @@ h2 {
     box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.08),
                 0px 4px 16px 0px rgba(0, 0, 0, 0.08),
                 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
+   
 }
 
 .profile-image {
@@ -219,15 +225,15 @@ h2 {
     background: rgba(0, 0, 0, 0.68);
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
+   
 }
 
 .contact h2 {
-    font-family: 'Inter', sans-serif;
-    font-size: 36px;
+    font-family: 'Figtree', sans-serif;
+    font-size: 24px;
     font-weight: 500;
     line-height: 44px;
     color: #FFFFFF;
-    margin: 0;
 }
 
 .contact-info {
@@ -239,7 +245,7 @@ h2 {
 .contact-info a {
     position: relative;
     width: 540px;
-    height: 56px;
+    height: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -282,12 +288,11 @@ h2 {
 }
 
 .about h2 {
-    font-family: 'Inter', sans-serif;
-    font-size: 36px;
+    font-family: 'Figtree', sans-serif;
+    font-size: 24px;
     font-weight: 500;
     line-height: 44px;
     color: #FFFFFF;
-    margin: 0;
 }
 
 .about p {
@@ -328,17 +333,16 @@ h2 {
 }
 
 .skills h2 {
-    font-family: 'Inter', sans-serif;
-    font-size: 36px;
+    font-family: 'Figtree', sans-serif;
+    font-size: 24px;
     font-weight: 500;
     line-height: 44px;
     color: #FFFFFF;
-    margin: 0;
 }
 
 .skills h3 {
-    font-family: 'Inter', sans-serif;
-    font-size: 24px;
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
     font-weight: 500;
     line-height: 32px;
     color: #FFFFFF;
@@ -426,24 +430,24 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    h3 {
+        font-size: 16px;
+    }
 }
 
 .project-content h2 {
-    font-family: 'Inter', sans-serif;
-    font-size: 36px;
+    font-family: 'Figtree', sans-serif;
+    font-size: 24px;
     font-weight: 500;
-    line-height: 44px;
     color: #FFFFFF;
-    margin: 0;
 }
 
 .project-content p {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Figtree', sans-serif;
     font-size: 16px;
     font-weight: normal;
     line-height: 25.6px;
     color: #B3B3B3;
-    margin: 0;
 }
 
 .project-tags {
@@ -481,12 +485,11 @@ h2 {
 }
 
 .footer h2 {
-    font-family: 'Inter', sans-serif;
-    font-size: 36px;
+    font-family: 'Figtree', sans-serif;
+    font-size: 24px;
     font-weight: 500;
-    line-height: 44px;
+    line-height: 34px;
     color: #FFFFFF;
-    margin: 0;
 }
 
 .footer .contact-info {
@@ -498,12 +501,12 @@ h2 {
 .footer .contact-info a {
     position: relative;
     width: 540px;
-    height: 56px;
+    height: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
-    padding: 16px;
+    padding: 8px;
     background: #1C1C1E;
     border-radius: 8px;
     text-decoration: none;
@@ -560,21 +563,23 @@ h2 {
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08),
                 0px 4px 16px 0px rgba(0, 0, 0, 0.08),
                 0px 8px 32px 0px rgba(0, 0, 0, 0.08);
+    h2 {
+        margin: 0;
+    }
 }
 
 .experience h2 {
-    font-family: 'Inter', sans-serif;
-    font-size: 36px;
+    font-family: 'Figtree', sans-serif;
+    font-size: 24px;
     font-weight: 500;
     line-height: 44px;
     color: #FFFFFF;
-    margin: 0;
 }
 
 .experience-list {
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 24px;
 }
 
 .experience-item {
@@ -588,7 +593,7 @@ h2 {
     padding: 8px 16px;
     background: #1C1C1E;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     color: #FFFFFF;
     width: fit-content;
@@ -628,4 +633,8 @@ h2 {
     height: 40px;
     margin-left: 4px;
     object-fit: contain;
+}
+
+h3 {
+    font-size: 16px;
 }
