@@ -16,8 +16,17 @@
 }
 
 body {
-    font-family: 'Figtree', sans-serif;
-    background-color: #000000;
+    font-family: 'Inter', sans-serif;
+    background: 
+        radial-gradient(circle at 30% 70%, 
+            rgba(0, 0, 255, 0.2) 0%, 
+            transparent 40%
+        ),
+        radial-gradient(circle at 60% 10%, 
+            rgba(128, 0, 128, 0.2) 0%, 
+            transparent 40%
+        ),
+        #000000;
     color: var(--text-color);
     line-height: 1.6;
     display: flex;
@@ -100,7 +109,7 @@ h2 {
 
 .profile-info h1 {
     font-family: 'Figtree', sans-serif;
-    font-size: 36px !important;
+    font-size: 36px;
     font-weight: 500;
     line-height: 39.6px;
     display: flex;
@@ -110,6 +119,12 @@ h2 {
     color: #FFFFFF;
     gap: 12px;
     width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .profile-info h1 {
+        justify-content: start;
+    }
 }
 
 .profile-info h1 .highlight {
@@ -142,14 +157,14 @@ h2 {
     position: static;
     left: 51.5px;
     top: 68px;
-    width: 292px;
-    height: 52px;
+    width: 100%;
+    height: 100%;
     /* Smart layout */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0px;
+    padding: 0px 12px 0px 12px;
     gap: 8px;
     z-index: 1;
     
@@ -160,7 +175,6 @@ h2 {
     color: #FFFFFF;
     
     /* Typography */
-    font-size: 36px;
     font-weight: 500;
     line-height: 39px;
     letter-spacing: 0;
@@ -171,7 +185,6 @@ h2 {
     align-items: center;
     justify-content: center;
     gap: 8px;
-    font-size: 36px;
 }
 
 .profile-info p:nth-child(3) {
@@ -179,7 +192,6 @@ h2 {
     align-items: center;
     justify-content: center;
     gap: 8px;
-    font-size: 36px;
 }
 
 .profile-info p:nth-child(3) .highlight {
@@ -192,7 +204,6 @@ h2 {
     background: #FFFFFF;
     border-radius: 12px;
     color: #000000;
-    font-size: 36px;
     font-weight: 500;
 }
 
@@ -530,20 +541,86 @@ h2 {
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
-        padding: 1rem;
+        width: 100%;
+        padding: 16px;
+    }
+
+    .grid {
+        width: 100%;
+    }
+
+    .profile-card,
+    .about,
+    .skills,
+    .experience,
+    .projects,
+    .footer {
+        width: 100%;
+        padding: 16px;
     }
 
     .profile-image {
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: auto;
     }
 
-    .projects {
-        grid-template-columns: 1fr;
+    .contact-info a,
+    .footer .contact-info a {
+        width: 100%;
     }
 
-    .contact-info {
+    .project-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-card {
         flex-direction: column;
+    }
+
+    .profile-card {
+        width: 100%;
+        height: auto;
+        padding: 16px;
+        gap: 16px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .profile-image {
+        width: 135px;
+        height: 153px;
+        border-radius: 10px;
+    }
+
+    .profile-info {
+        text-align: left;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .profile-info h1 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .profile-info p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .profile-info p .highlight {
+        font-size: 20px;
+    }
+
+    .profile-info p:nth-child(3) .highlight::after {
+        width: 22px;
+        height: 22px;
+    }
+
+    .rocket-icon {
+        width: 22px !important;
+        height: 22px !important;
     }
 }
 
@@ -552,7 +629,7 @@ h2 {
     position: static;
     left: 0px;
     top: 1619.16px;
-    width: 588px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding: 24px;
