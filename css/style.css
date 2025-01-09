@@ -16,7 +16,7 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Figtree', sans-serif;
     background-color: #000000;
     color: var(--text-color);
     line-height: 1.6;
@@ -24,6 +24,11 @@ body {
     justify-content: center;
     min-height: 100vh;
     padding: 64px 0;
+}
+
+h2 {
+    font-family: 'Figtree', sans-serif;
+    font-size: 24px;
 }
 
 .container {
@@ -83,7 +88,7 @@ body {
 }
 
 .profile-info h1 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Figtree', sans-serif;
     font-size: 36px !important;
     font-weight: 500;
     line-height: 39.6px;
@@ -112,7 +117,7 @@ body {
 }
 
 .profile-info p {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Figtree', sans-serif;
     font-size: 32px;
     font-weight: 500;
     line-height: 39px;
@@ -286,7 +291,7 @@ body {
 }
 
 .about p {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Figtree', sans-serif;
     font-size: 16px;
     font-weight: normal;
     line-height: 25.6px;
@@ -368,7 +373,7 @@ body {
 /* ... existing code ... */
 
 .interests p {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Figtree', sans-serif;
     font-size: 16px;
     font-weight: normal;
     line-height: 25.6px;
