@@ -179,6 +179,11 @@ h2 {
     line-height: 39px;
     letter-spacing: 0;
 }
+@media (max-width: 768px) {
+    .profile-info p:nth-child(2) .highlight {
+        padding: 0px 10px 0px 10px;
+    }
+}
 
 .profile-info p:nth-child(2) {
     display: flex;
