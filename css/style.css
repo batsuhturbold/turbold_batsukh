@@ -45,7 +45,12 @@ h2 {
     flex-wrap: wrap;
     align-content: flex-start;
 }
-
+.grid {
+    width: 588px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
 /* Hero Section */
 .hero {
     display: flex;
