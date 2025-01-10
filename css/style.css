@@ -689,6 +689,8 @@ h2 {
     font-size: 20px;
     font-weight: 500;
     color: #FFFFFF;
+    align-items: center;
+    gap: 4px;
     width: fit-content;
 }
 
@@ -730,4 +732,13 @@ h2 {
 
 h3 {
     font-size: 16px;
+}
+
+.company-name a {
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: none; /* link-ийн доогуур зураасыг арилгах */
+    display: flex;
+    align-items: center;
+    gap: 8px; /* текст болон icon хоорондын зай */
 }
