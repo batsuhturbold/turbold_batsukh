@@ -446,8 +446,11 @@ h2 {
 
 .project-image img {
     width: 100%;
-    height: auto;
-    display: block;
+    height: 100%;
+    object-fit: cover;
+    /* Зургийн rendering-г сайжруулах */
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
 }
 
 .project-content {
