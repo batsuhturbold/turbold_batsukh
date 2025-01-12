@@ -599,8 +599,8 @@ h2 {
     }
 
     .profile-image {
-        width: 135px;
-        height: 153px;
+        width: 100px;
+        height: auto;
         border-radius: 10px;
     }
 
