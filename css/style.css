@@ -77,6 +77,9 @@ h2 {
     justify-content: center;
     padding: 24px 24px 28px 24px;
     gap: 28px;
+    /* Зургийн rendering-г сайжруулах */
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
     
     /* Таны хүссэн шинж чанарууд */
     border-radius: 24px;
@@ -95,6 +98,9 @@ h2 {
     width: 100%;
     height: auto;
     border-radius: 8px;
+    /* Зургийн rendering-г сайжруулах */
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
     
 }
 
@@ -572,7 +578,10 @@ h2 {
 
     .profile-image {
         width: 100px;
-        height: auto;
+        height: auto; 
+        /* Зургийн rendering-г сайжруулах */
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
     }
 
     .contact-info a,
@@ -602,6 +611,9 @@ h2 {
         width: 100px;
         height: auto;
         border-radius: 10px;
+        /* Зургийн rendering-г сайжруулах */
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
     }
 
     .profile-info {
