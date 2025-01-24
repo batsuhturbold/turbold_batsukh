@@ -16,7 +16,7 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', serif;
     background: 
         radial-gradient(circle at 30% 70%, 
             rgba(0, 0, 255, 0.2) 0%, 
@@ -37,7 +37,7 @@ body {
 
 h2 {
     margin: 0;
-    font-family: 'Figtree';
+    font-family: 'Nunito';
     font-size: 24px;
     font-weight: 600;
     line-height: 31.2px;
@@ -114,7 +114,7 @@ h2 {
 }
 
 .profile-info h1 {
-    font-family: 'Figtree', sans-serif;
+    font-family: 'Nunito', serif;
     font-size: 36px;
     font-weight: 500;
     line-height: 39.6px;
@@ -149,7 +149,7 @@ h2 {
 }
 
 .profile-info p {
-    font-family: 'Figtree', sans-serif;
+    font-family: 'Nunito', serif;
     font-size: 32px;
     font-weight: 500;
     line-height: 39px;
@@ -259,7 +259,7 @@ h2 {
 }
 
 .contact h2 {
-    font-family: 'Figtree', sans-serif;
+    font-family: 'Nunito', serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 44px;
@@ -285,7 +285,7 @@ h2 {
     border-radius: 8px;
     text-decoration: none;
     color: #FFFFFF;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -318,7 +318,7 @@ h2 {
 }
 
 .about h2 {
-    font-family: 'Figtree', sans-serif;
+    font-family: 'Nunito', serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 44px;
@@ -326,7 +326,7 @@ h2 {
 }
 
 .about p {
-    font-family: 'Figtree', sans-serif;
+    font-family: 'Nunito', serif;
     font-size: 16px;
     font-weight: normal;
     line-height: 25.6px;
@@ -363,7 +363,7 @@ h2 {
 }
 
 .skills h2 {
-    font-family: 'Figtree', sans-serif;
+    font-family: 'Nunito', serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 44px;
@@ -371,7 +371,7 @@ h2 {
 }
 
 .skills h3 {
-    font-family: 'Figtree', sans-serif;
+    font-family: 'Nunito', serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 32px;
@@ -407,7 +407,7 @@ h2 {
 /* ... existing code ... */
 
 .interests p {
-    font-family: 'Figtree', sans-serif;
+    font-family: 'Nunito', serif;
     font-size: 16px;
     font-weight: normal;
     line-height: 25.6px;
@@ -469,14 +469,14 @@ h2 {
 }
 
 .project-content h2 {
-    font-family: 'Figtree', sans-serif;
+    font-family: 'Nunito', serif;
     font-size: 24px;
     font-weight: 500;
     color: #FFFFFF;
 }
 
 .project-content p {
-    font-family: 'Figtree', sans-serif;
+    font-family: 'Nunito', serif;
     font-size: 16px;
     font-weight: normal;
     line-height: 25.6px;
@@ -493,7 +493,7 @@ h2 {
     padding: 8px 16px;
     background: #1C1C1E;
     border-radius: 8px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', serif;
     font-size: 16px;
     font-weight: 500;
     color: #FFFFFF;
@@ -518,7 +518,7 @@ h2 {
 }
 
 .footer h2 {
-    font-family: 'Figtree', sans-serif;
+    font-family: 'Nunito', serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 34px;
@@ -544,7 +544,7 @@ h2 {
     border-radius: 8px;
     text-decoration: none;
     color: #FFFFFF;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -674,7 +674,7 @@ h2 {
 }
 
 .experience h2 {
-    font-family: 'Figtree', sans-serif;
+    font-family: 'Nunito', serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 44px;
@@ -724,7 +724,7 @@ h2 {
 }
 
 .description {
-    font-family: 'Figtree', sans-serif;
+    font-family: 'Nunito', serif;
     font-size: 16px;
     font-weight: normal;
     line-height: 25.6px;
