@@ -577,7 +577,7 @@ h2 {
     }
 
     .profile-image {
-        width: 100px;
+        width: 120px;
         height: auto; 
         /* Зургийн rendering-г сайжруулах */
         image-rendering: -webkit-optimize-contrast;
